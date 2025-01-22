@@ -1,0 +1,3 @@
+# React Router v6 Catch-all Route Issue
+
+This repository demonstrates a common issue with React Router v6's catch-all route (`/*`). The problem is that the catch-all route always matches, overriding other more specific routes even if they match the current path. This results in unexpected behavior and prevents other routes from working as intended.  The solution demonstrates how to correctly order routes to avoid this issue.
